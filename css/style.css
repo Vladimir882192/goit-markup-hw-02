@@ -1,8 +1,9 @@
 :root {
     --primery-text-color: #757575;
-    --title-text-color: #212121;
+    --title-text-color:#212121;
     --accent-color: #2196F3;
     --primery-white-color:#FFFFFF;
+    --footer-contact-color:rgba(255, 255, 255, 0.6);
 }
 
 
@@ -17,6 +18,7 @@ list-style: none;
 }   
 
 /* logo */
+
 .logo {
 color: #000000
 }
@@ -39,10 +41,20 @@ color:var(--title-text-color) ;
 .site-nav .link:focus{
 color:var(--accent-color) ;
 }
-.site-nav .link .current
+.site-nav .link.current{
+color:var(--accent-color);
+}
 
 /* auth-nav list */
-.auth-nav .link:hover, .auth-nav .link:focus {
+
+.auth-nav .link{
+color: var(--primery-text-color);
+}
+.auth-nav .link:hover, 
+.auth-nav .link:focus {
+color: var(--accent-color);
+}
+.auth-nav .link.current{
 color: var(--accent-color);
 }
 
@@ -50,10 +62,23 @@ color: var(--accent-color);
 .hero-title{
 color:var(--primery-white-color);
 }
+
 /* button */
-.button:hover{
+
+.button {
+color: var(--title-text-color);
+background-color: var(--primery-white-color);
+}
+
+.button.primary.current{
 color: var(--primery-white-color);
-background-color:#188CE8;
+background-color: var(--accent-color);
+}
+
+.button.primary:hover, 
+.button.primary:focus {
+color: var(--primery-white-color);
+background-color: var(--accent-color);
 }
 
 /* section */
@@ -65,17 +90,32 @@ color: var(--title-text-color) ;
 .feature-list .title{
 color: var(--title-text-color);
 }
-p {
+/* переменная для "p" */
+.test{
 color:var(--primery-text-color) ;
 }
 
 /* "footer address */
-.address .map{
-color: var(--primery-white-color);
+.address .location{
+color:var(--primery-white-color);
 }
 .address .link{
-color:rgba(255, 255, 255, 0.6);
+color:var(--footer-contact-color);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Oбщий background E5E5E5 */
