@@ -4,6 +4,7 @@
     --accent-color: #2196F3;
     --primery-white-color:#FFFFFF;
     --footer-contact-color:rgba(255, 255, 255, 0.6);
+    --hero-button-color:#188CE8;
 }
 
 
@@ -28,7 +29,8 @@ color: #000000;
 font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 1.2;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 
 .Web {
@@ -93,6 +95,7 @@ letter-spacing: 0.06em;
 .hero .button{
 color:var(--primery-white-color);
 background-color:var(--accent-color);
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -103,12 +106,7 @@ letter-spacing: 0.06em;
 .hero .button.primary:hover,
 .hero .button.primary:focus {
 color: var(--primery-white-color);
-background-color:#188CE8;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-text-align: center;
-letter-spacing: 0.06em;
+background-color:var(--hero-button-color);
 }
 
 
@@ -117,51 +115,85 @@ letter-spacing: 0.06em;
 .button {
 color: var(--title-text-color);
 background-color: var(--primery-white-color);
-font-weight: 700;
+font-family: inherit;
+font-weight: 500;
 font-size: 16px;
-line-height: 1.88;
-text-align: center;
-letter-spacing: 0.06em;
+line-height: 1.6;
 }
 
 .button.primary.current{
 color: var(--primery-white-color);
 background-color: var(--accent-color);
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-text-align: center;
-letter-spacing: 0.06em;
 }
 
 .button.primary:hover, 
 .button.primary:focus {
 color: var(--primery-white-color);
 background-color: var(--accent-color);
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-text-align: center;
-letter-spacing: 0.06em;
 }
 
 /* section */
-.section-title, .title {
-color: var(--title-text-color) ;
+.section-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
 }
 
-/* Features */
-.feature-list .title{
+/* section "Features" */
+
+.title{
 color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
 }
-/* переменная для "p" */
+
 .test{
 color:var(--primery-text-color) ;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+}
+
+/* section team */
+
+.team .title{
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+}
+.team .test{
+color: var(--primery-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+}
+
+/* section benefits */
+.benefits.title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.benefits.test {
+    color: var(--primery-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
 
 /* "footer address */
 .address .location{
 color:var(--primery-white-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
 }
 .address .location:hover,
 .address .location:focus{
@@ -170,6 +202,9 @@ color:var(--accent-color);
 
 .address .link{
 color:var(--footer-contact-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
 }
 .address .link:hover,
 .address .link:focus{
