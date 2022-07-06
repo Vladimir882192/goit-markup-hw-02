@@ -2,20 +2,19 @@
     --primery-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primery-bg-color:#FFFFFF;
+    --primery-white-color:#FFFFFF;
 }
 
 
 body {
-    background-color:var(--primery-bg-color);
-    color: var(--primery-text-color)
+background-color:var(--primery-white-color);
+color:var(--primery-text-color)
 }
 
 /* ul{list-style: none;} */
 .list{
 list-style: none;  
 }   
-
 
 /* logo */
 .logo {
@@ -36,9 +35,11 @@ color: var(--accent-color);
 
 color:var(--title-text-color) ;
 }
-.site-nav .link:hover, .site-nav .link:focus{
+.site-nav .link:hover, 
+.site-nav .link:focus{
 color:var(--accent-color) ;
 }
+.site-nav .link .current
 
 /* auth-nav list */
 .auth-nav .link:hover, .auth-nav .link:focus {
@@ -47,11 +48,11 @@ color: var(--accent-color);
 
 /* hero */
 .hero-title{
-color: var(--primery-bg-color);
+color:var(--primery-white-color);
 }
 /* button */
 .button:hover{
-color: var(--primery-bg-color);
+color: var(--primery-white-color);
 background-color:#188CE8;
 }
 
@@ -70,12 +71,11 @@ color:var(--primery-text-color) ;
 
 /* "footer address */
 .address .map{
-color: var(--primery-bg-color);
+color: var(--primery-white-color);
 }
 .address .link{
-color: rgba(255, 255, 255, 0.6);
+color:rgba(255, 255, 255, 0.6);
 }
-
 
 
 /* Oбщий background E5E5E5 */
@@ -90,3 +90,18 @@ color: rgba(255, 255, 255, 0.6);
 /* задний фон основного раздела background: #E5E5E5 */
 /* фон внизу почта и телефон rgba(255, 255, 255, 0.6) */
 
+/* .button{
+    color: var(--title-text-color);
+    background-color: var(--primery-white-color);
+}
+.button.primary{
+    color: var(--primery-white-color);
+    background-color:var(--accent-color);
+}
+.button.secondary{
+    color:var(--accent-color);
+    background-color:var(--primery-white-color);
+}
+html
+<li><a href=""class=button primary> Log in </a></li>
+<li><a href=""class=button secondary> Register </a></li>
