@@ -9,8 +9,12 @@
 
 body {
 background-color:var(--primery-white-color);
-color:var(--primery-text-color)
-}
+color:var(--primery-text-color);
+
+font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
+} 
+
 
 /* ul{list-style: none;} */
 .list{
@@ -20,14 +24,18 @@ list-style: none;
 /* logo */
 
 .logo {
-color: #000000
+color: #000000;
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
 }
 
 .Web {
 color: var(--accent-color);
 }
 
-.logo:hover{
+.logo:hover, .logo:focus{
 color: var(--accent-color);
 }
 
@@ -36,6 +44,10 @@ color: var(--accent-color);
 .site-nav .link {
 
 color:var(--title-text-color) ;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -45,10 +57,15 @@ color:var(--accent-color) ;
 color:var(--accent-color);
 }
 
+
 /* auth-nav list */
 
 .auth-nav .link{
 color: var(--primery-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em
 }
 .auth-nav .link:hover, 
 .auth-nav .link:focus {
@@ -58,34 +75,81 @@ color: var(--accent-color);
 color: var(--accent-color);
 }
 
+
 /* hero */
 .hero-title{
-color:var(--primery-white-color);
+/* color:var(--primery-white-color); основа*/
+color:var(--title-text-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
 }
 
-/* button */
+
+/* button index.html*/
+
+.hero .button{
+color:var(--primery-white-color);
+background-color:var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+.hero .button.primary:hover,
+.hero .button.primary:focus {
+color: var(--primery-white-color);
+background-color:#188CE8;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+
+/* button portfolio.html*/
 
 .button {
 color: var(--title-text-color);
 background-color: var(--primery-white-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
 }
 
 .button.primary.current{
 color: var(--primery-white-color);
 background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
 }
 
 .button.primary:hover, 
 .button.primary:focus {
 color: var(--primery-white-color);
 background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
 }
 
 /* section */
 .section-title, .title {
 color: var(--title-text-color) ;
-
 }
+
 /* Features */
 .feature-list .title{
 color: var(--title-text-color);
@@ -99,19 +163,18 @@ color:var(--primery-text-color) ;
 .address .location{
 color:var(--primery-white-color);
 }
+.address .location:hover,
+.address .location:focus{
+color:var(--accent-color);
+}
+
 .address .link{
 color:var(--footer-contact-color);
 }
-
-
-
-
-
-
-
-
-
-
+.address .link:hover,
+.address .link:focus{
+color: var(--accent-color);
+}
 
 
 
@@ -130,7 +193,9 @@ color:var(--footer-contact-color);
 /* задний фон основного раздела background: #E5E5E5 */
 /* фон внизу почта и телефон rgba(255, 255, 255, 0.6) */
 
-/* .button{
+/* .button{ 
+font-family: inherit;}*/
+/* {
     color: var(--title-text-color);
     background-color: var(--primery-white-color);
 }
@@ -144,4 +209,4 @@ color:var(--footer-contact-color);
 }
 html
 <li><a href=""class=button primary> Log in </a></li>
-<li><a href=""class=button secondary> Register </a></li>
+<li><a href=""class=button secondary> Register </a></li> */
