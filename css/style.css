@@ -31,9 +31,19 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+text-decoration: none;
+}
+.footer .logo{
+color:var(--primery-white-color);
+font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
 }
 
-.Web {
+.accent {
 color: var(--accent-color);
 }
 
@@ -49,7 +59,8 @@ color:var(--title-text-color) ;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -67,7 +78,8 @@ color: var(--primery-text-color);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.02em
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 .auth-nav .link:hover, 
 .auth-nav .link:focus {
@@ -80,8 +92,7 @@ color: var(--accent-color);
 
 /* hero */
 .hero-title{
-/* color:var(--primery-white-color); основа*/
-color:var(--title-text-color);
+color:var(--primery-white-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -101,6 +112,7 @@ font-size: 16px;
 line-height: 1.88;
 text-align: center;
 letter-spacing: 0.06em;
+text-decoration: none;
 }
 
 .hero .button.primary:hover,
@@ -121,7 +133,7 @@ font-size: 16px;
 line-height: 1.6;
 }
 
-.button.primary.current{
+.button.current{
 color: var(--primery-white-color);
 background-color: var(--accent-color);
 }
@@ -150,7 +162,7 @@ font-size: 14px;
 line-height: 1.14;
 }
 
-.test{
+.text{
 color:var(--primery-text-color) ;
 font-weight: 400;
 font-size: 14px;
@@ -165,7 +177,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 }
-.team .test{
+.team .text{
 color: var(--primery-text-color);
 font-weight: 400;
 font-size: 16px;
@@ -174,14 +186,14 @@ line-height: 1.19;
 
 /* section benefits */
 .benefits .title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 
-.benefits .test {
+.benefits .text {
     color: var(--primery-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -194,6 +206,7 @@ color:var(--primery-white-color);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
+text-decoration: none;
 }
 .address .location:hover,
 .address .location:focus{
@@ -205,11 +218,26 @@ color:var(--footer-contact-color);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
+text-decoration: none;
 }
 .address .link:hover,
 .address .link:focus{
 color: var(--accent-color);
 }
+
+/* section "hero" */
+.hero, .footer{
+background-color: #2F303A;
+}
+
+/*section-team */
+.section-team{
+background-color:#F5F4FA ;
+}
+
+
+
+
 
 
 
