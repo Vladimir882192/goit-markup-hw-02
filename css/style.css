@@ -11,7 +11,6 @@
 body {
 background-color:var(--primery-white-color);
 color:var(--primery-text-color);
-
 font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
 } 
@@ -54,13 +53,7 @@ color: var(--accent-color);
 
 /* site nav */
 .site-nav .link {
-
 color:var(--title-text-color) ;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -75,11 +68,6 @@ color:var(--accent-color);
 
 .auth-nav .link{
 color: var(--primery-text-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
 }
 .auth-nav .link:hover, 
 .auth-nav .link:focus {
@@ -89,6 +77,14 @@ color: var(--accent-color);
 color: var(--accent-color);
 }
 
+/* Text .site nav, .auth-nav */
+.site-nav .link, .auth-nav .link{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
 
 /* hero */
 .hero-title{
@@ -102,6 +98,8 @@ letter-spacing: 0.06em;
 
 
 /* button index.html*/
+
+.button{cursor: pointer;}
 
 .hero .button{
 color:var(--primery-white-color);
@@ -164,7 +162,6 @@ line-height: 1.14;
 
 .text{
 color:var(--primery-text-color) ;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 }
@@ -179,7 +176,6 @@ line-height: 1.19;
 }
 .team .text{
 color: var(--primery-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 }
@@ -194,36 +190,38 @@ letter-spacing: 0.06em;
 }
 
 .benefits .text {
-    color: var(--primery-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.9;
+color: var(--primery-text-color);
+font-size: 16px;
+line-height: 1.9;
 }
 
 /* "footer address */
-.address .location{
+.information .location{
 color:var(--primery-white-color);
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-text-decoration: none;
 }
-.address .location:hover,
+
+.information .location:hover,
 .address .location:focus{
 color:var(--accent-color);
 }
 
-.address .link{
+.information .link{
 color:var(--footer-contact-color);
-font-weight: 400;
+}
+
+.information .link:hover,
+.information.link:focus{
+color: var(--accent-color);
+}
+
+.information .location, .information .link{
 font-size: 14px;
 line-height: 1.7;
 text-decoration: none;
 }
-.address .link:hover,
-.address .link:focus{
-color: var(--accent-color);
-}
+
+
+
 
 /* section "hero" */
 .hero, .footer{
@@ -234,6 +232,11 @@ background-color: #2F303A;
 .section-team{
 background-color:#F5F4FA ;
 }
+
+
+
+
+
 
 
 
